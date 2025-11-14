@@ -38,11 +38,11 @@ print(denominator())
 
 #Takes in two arguments. multiply the first argument by negative 1. Then
 #return the modified first argument added and subtracted by the second argument.
-def plusMinus():
+def plusMinus(a,b):
     a = int(input("Give me a number: "))
     b = int(input("Give me another number: "))
     a = a * -1
-    return a+b, a-b
+    return (-a+b , -a-b)
 print(plusMinus())
 
 #takes in three numbers as arguments. The first and third multiplied together then
@@ -60,7 +60,7 @@ def quadratic(a,b,c):
     if d < 0:
         return "No real roots"
     x1 = (-b+ math.sqrt(d)) / (2*a)
-    x2 = (-b - math.sqrt(d)) / (2*1)
+    x2 = (-b - math.sqrt(d)) / (2*a)
     return x1,x2
 print(quadratic(1,12,20))
 
