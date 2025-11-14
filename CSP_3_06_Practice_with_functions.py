@@ -4,7 +4,6 @@ import math
 #returns the square root of the number n
 def root(n):
     return math.sqrt(n)
-pass
 
 #Takes in the 3 side lengths of a triangle as arguments and returns half of
 #the perimeter of a triangle.
