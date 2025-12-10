@@ -30,19 +30,16 @@ print(herons(1,2,3))
 #quadratic equation
 
 #takes in a number as an argument and returns that number multiplied by 2.
-def denominator():
-    num =int(input("Give me a number: "))
+def denominator(num):
     return num * 2
-print(denominator())
+
 
 #Takes in two arguments. multiply the first argument by negative 1. Then
 #return the modified first argument added and subtracted by the second argument.
 def plusMinus(a,b):
-    a = int(input("Give me a number: "))
-    b = int(input("Give me another number: "))
     a = a * -1
     return (-a+b , -a-b)
-print(plusMinus())
+
 
 #takes in three numbers as arguments. The first and third multiplied together then
 #multiplied by 4.Then subtract that result from the second argument squared.
